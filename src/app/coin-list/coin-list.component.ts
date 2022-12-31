@@ -33,14 +33,12 @@ export class CoinListComponent implements OnInit {
   getBannerData() {
     this.api.getTrendingCurrency(this.currency)
       .subscribe(res => {
-        console.log(res);
         this.bannerData = res;
       })
   }
   getAllData() {
     this.api.getCurrency(this.currency)
       .subscribe(res => {
-        console.log(res);
         this.dataSource = new MatTableDataSource(res);
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.sort;

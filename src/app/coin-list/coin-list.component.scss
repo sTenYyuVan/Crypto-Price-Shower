@@ -73,11 +73,11 @@ th {
 }
 
 :host ::ng-deep .mat-paginator-outer-container {
-    background-color: rgb(36, 37, 37);
+    background-color:white;
 }
 
 :host ::ng-deep tr.mat-header-row {
-    background-color: #009688;
+    background-color: blue;
 }
 
 :host ::ng-deep tr.mat-row {

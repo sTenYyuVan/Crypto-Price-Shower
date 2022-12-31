@@ -43,23 +43,23 @@
     }
 }
 
-//#009688
 .btn-custom {
-    color: #fff;
+    color:  #000000;
     background: transparent;
     font-weight: 400;
     font-size: 18px;
-    border: 1px solid #fff;
+    border: 1px solid #000000;
     width: 23%;
 }
 
 .btn-custom:focus {
-    background: #009688;
+    background: #0000FF;
     font-weight: 700;
     font-size: 18px;
-    border: 1px solid #009688;
+    border: 1px solid #0000FF;
+    color: aliceblue;
 }
 
 * {
-    color: #fff;
+    color: #000000;
 }
