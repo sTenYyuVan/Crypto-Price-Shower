@@ -83,3 +83,16 @@ th {
 :host ::ng-deep tr.mat-row {
     height: 70px;
 }
+
+.slider{
+    margin: 40px 20px;
+    width: 1000px;
+    
+    .slider-content-container{
+        
+        border: 10px solid orangered;
+        width: 100%;
+        height: 200px;
+        background-color: black;
+}
+}
